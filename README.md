@@ -10,7 +10,7 @@ You need to have the [MagePrince FAQ](https://github.com/mageprince/magento2-FAQ
 composer require rapidez/mageprince-faq
 ```
 
-After that go to the configured base url, default: `/faq`
+After that go to the configured url, default: `/faq`
 
 ## Views
 
