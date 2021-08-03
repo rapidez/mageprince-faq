@@ -4,7 +4,6 @@ namespace Rapidez\MagePrinceFaq\Models;
 
 use Rapidez\Core\Models\Model;
 use Rapidez\Core\Models\Scopes\IsActiveScope;
-use Rapidez\MagePrinceFaq\Models\Faq;
 
 class Group extends Model
 {
