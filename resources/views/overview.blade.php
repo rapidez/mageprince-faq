@@ -11,7 +11,7 @@
 
         <div class="grid gap-3 gap-5 grid-cols-3 sm:grid-cols-4 md:grid-cols-5 mb-5">
             @foreach($categories as $category)
-                <a href="#group{{ $category->faqgroup_id }}" class="text-center" data-turbo="false">
+                <a href="#group{{ $category->faqgroup_id }}" class="text-center">
                     <img src="{{ config('rapidez.media_url') }}/faq/tmp/icon/{{ $category->icon }}" alt="{{ $category->groupname }}" class="w-full border p-3 mb-2 hover:border-primary">
                     <strong class="hover:underline">{{ $category->groupname }}</strong>
                 </a>
