@@ -1,5 +1,11 @@
 # Changelog 
 
+## 0.3.1 - 2023-01-31
+
+### Fixed
+
+- Remove data-turbo false from hash links no longer needed (#3)
+
 ## 0.3.0 - 2023-01-19
 
 ### Changed
