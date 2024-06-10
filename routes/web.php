@@ -1,9 +1,9 @@
 <?php
 
+use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\Route;
 use Rapidez\Core\Facades\Rapidez;
 use Rapidez\MagePrinceFaq\Models\Group;
-use Illuminate\Database\QueryException;
 
 try {
     $url = Rapidez::config('faqtab/seo/faq_url', 'faq');
