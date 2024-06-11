@@ -4,7 +4,8 @@
 ## [0.5.1](https://github.com/rapidez/mageprince-faq/releases/tag/0.5.1) - 2024-06-10
 
 ### Fixed
- - Fix broken packages:discover without database (#6)
+
+- Fix broken packages:discover without database (#6)
 
 ## [0.5.0](https://github.com/rapidez/mageprince-faq/releases/tag/0.5.0) - 2024-03-21
 
