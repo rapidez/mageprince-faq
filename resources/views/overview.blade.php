@@ -26,8 +26,8 @@
                     </strong>
 
                     @foreach($category->faqs as $faq)
-                        <toggler>
-                            <div class="mb-2" slot-scope="{ toggle, close, isOpen }">
+                        <toggler v-slot="{ toggle, close, isOpen }">
+                            <div class="mb-2">
                                 <a href="#" class="flex items-center justify-between p-3 font-bold bg-gray-100 border border-gray-200 hover:bg-primary hover:text-white" :class="{ 'bg-primary text-white': isOpen }" v-on:click.prevent="toggle">
                                     {{ $faq->title }}
                                     <x-heroicon-s-chevron-down v-if="!isOpen" class="h-4 w-4 text-black-400"/>
